@@ -11,7 +11,7 @@ def hash_password(password, salt):
     return hashed_password
 
 # Example usage
-password = input("pswd: ")
+password = input("Password: ")
 
 # Generate a salt
 salt = generate_salt()
